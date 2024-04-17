@@ -1,0 +1,77 @@
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+  margin-bottom: -15px;
+  margin-top: 50px;
+  width: 30px;
+}
+
+.h1-profile {
+  color: #41197f;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.h2-profile {
+  font-size: 15px;
+}
+
+.div-buttons-profile {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-done {
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  outline: inherit;
+  padding: 0;
+}
+
+.btn-favorite {
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+  outline: inherit;
+  padding: 0;
+}
+
+.btn-logout {
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-size: 25px;
+  justify-content: center;
+  outline: inherit;
+  padding: 0;
+}
+
+.doneImg, .favoriteImg, .logoutImg {
+  margin-right: 20px;
+  width: 50px;
+}
